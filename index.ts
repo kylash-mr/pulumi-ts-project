@@ -18,8 +18,7 @@ const vpc = createVpc({
     tags: {
         Environment: "dev",
         Project: "zen-learning"
-    }
-})
+    }})
 export const logsBucketName = logsBucket.bucketName;
 export const logsBucketArn = logsBucket.bucketArn;
 export const vpcId = vpc.vpcId;
